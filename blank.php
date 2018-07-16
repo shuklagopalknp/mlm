@@ -1,4 +1,9 @@
-
+<?php 
+include 'session.php';
+include 'layout.php';
+include'dbconnect.php';
+head();
+sidebar();
 ?>
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
